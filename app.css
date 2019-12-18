@@ -1,0 +1,39 @@
+h1 {
+  color: blue;
+}
+
+.bdd {
+
+  color: chocolate;
+  padding: 10px;
+
+}
+
+.user {
+  color: green;
+  padding: 10px
+}
+
+.pause {
+  padding: 10px;
+
+}
+
+.informations {
+
+  background-color: black;
+  color : white;
+  
+}
+
+
+#break-button {
+  background-color: green;
+
+}
+
+#action-btn {
+
+  margin: auto;
+
+}

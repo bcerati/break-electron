@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Breaking Goods</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <h1>Bienvenue!</h1>
+    <h2> Voici notre application de gestion des pauses </h2>
+
+    <section>
+
+        <div class = "bdd ">
+            <input type="button" value="Connexion à la base de données" id="btn-bdd"> <br>
+            <input type="button" id="action-btn" value=" Voir les utilisateurs de la base de données" />
+            <table id="table" border="1">
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
+        <div class="user">
+
+             <span id="username"> Utilisateur connecté  =  <br> </span>
+
+        </div>
+
+
+      <div class="pause">
+        <input type="button" id="break-button" value="Début d'une Pause">
+      </div>
+
+
+      <div class="informations">
+
+        <h3> Temps total de pause </h3>
+
+      </div>
+
+
+    </section>
+
+    <button id="app-close" type="button">Fermer l'application</button>
+
+<script src="app.js"></script>
+  </body>
+</html>
