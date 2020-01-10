@@ -2,12 +2,29 @@ h1 {
   color: blue;
 }
 
-.bdd {
 
-  color: chocolate;
-  padding: 10px;
+.gauche {
+
+  float: left;
+  padding: 20px;
+  border-style: ridge;
+
 
 }
+
+.droite {
+
+  float: right;
+  padding: 20px;
+  border-style: dotted;
+}
+
+.bas {
+
+  clear: both;
+
+}
+
 
 .user {
   color: green;
@@ -23,7 +40,7 @@ h1 {
 
   background-color: black;
   color : white;
-  
+
 }
 
 

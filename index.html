@@ -11,22 +11,12 @@
     <h1>Bienvenue!</h1>
     <h2> Voici notre application de gestion des pauses </h2>
 
-    <section>
+    <section class="gauche">
 
-        <div class = "bdd ">
-            <input type="button" value="Connexion à la base de données" id="btn-bdd"> <br>
-            <input type="button" id="action-btn" value=" Voir les utilisateurs de la base de données" />
-            <table id="table" border="1">
-                <tbody>
 
-                </tbody>
-            </table>
-
-        </div>
         <div class="user">
-
+            <input type="button" id="login" value="Récupérer adresse mail Utilisateur">
              <span id="username"> Utilisateur connecté  =  <br> </span>
-
         </div>
 
 
@@ -35,16 +25,26 @@
       </div>
 
 
+
+   </section>
+
+
+   <section class="droite">
+
       <div class="informations">
 
         <h3> Temps total de pause </h3>
 
       </div>
 
+    </section>
+
+    <section class="bas">
+
+        <button id="app-close" type="button">Fermer l'application</button>
 
     </section>
 
-    <button id="app-close" type="button">Fermer l'application</button>
 
 <script src="app.js"></script>
   </body>
