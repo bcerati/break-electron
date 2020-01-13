@@ -8,7 +8,7 @@ function createWindow () {
   let win = new BrowserWindow({
     width: 800,
     height: 600,
-  //  icon:path.join(__dirname + ‘/clock.icns’),
+    icon:path.join(__dirname, '/clock.icns'),
     webPreferences: {
       nodeIntegration: true
     }
