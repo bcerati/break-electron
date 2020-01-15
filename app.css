@@ -1,13 +1,15 @@
-h1 {
-  color: blue;
-}
-
 
 .gauche {
 
   float: left;
   padding: 20px;
-  border-style: ridge;
+  position: relative;
+  border-radius:2px;
+  background: #FFFFFF;
+  width: 45%;
+  margin: 0 auto 1%;
+  padding: 45px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
 
 }
@@ -15,8 +17,12 @@ h1 {
 .droite {
 
   float: right;
-  padding: 20px;
   border-style: dotted;
+  background: #FFFFFF;
+  width: 30%;
+  margin: 0 auto 10px;
+  padding: 45px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .bas {
@@ -38,8 +44,7 @@ h1 {
 
 .informations {
 
-  background-color: black;
-  color : white;
+  color : black;
 
 }
 
@@ -76,7 +81,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #FD6949;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -87,7 +92,7 @@ h1 {
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+  background: #FD441C;
 }
 .form .message {
   margin: 15px 0 0;
@@ -136,11 +141,7 @@ h1 {
 }
 
 body {
-  background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: #FE795C; /* fallback for old browsers */
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -149,11 +150,28 @@ body {
 
 #break-button {
   background-color: green;
-
+  width : 200px;
+  height : 50px;
+  border: 5px outset;
+  border-radius: 20px;
 }
 
 #action-btn {
 
   margin: auto;
 
+}
+#app-close {
+  float: right;
+  padding: 20px;
+  width:297px;
+  height:75px;
+  width: 42%;
+  margin: 0 auto 100px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#login {
+width : 250px;
+height : 30px;
 }
