@@ -40,14 +40,32 @@ window.addEventListener('load', function load(event) {
     var section2 = document.getElementById('statistiques')
     var art2 = document.createElement('article');
     var titre2 = document.createElement('h3');
-    var para2 = document.createElement('p');
+    var ol  = document.createElement('ol');
+
 
 
     titre2.textContent = " Temps total des pauses des employés (pour cette journée) ";
-    para2.textContent = JSON.stringify(data[0][1]);
+
 
     art2.appendChild(titre2);
-    art2.appendChild(para2);
+    art2.appendChild(ol);
+
+    console.log(data);
+
+
+    for (var i = 0; i < data.length; i++) {
+
+      var li = document.createElement('li');
+      var p = document.createElement('p');
+      p.textContent = "  Utilisateur :  " + JSON.stringify(data[i].user_id) +
+                      "  Début de la pause  " + JSON.stringify(data[i].date_debut.date) +
+                      "  Fin de la pause " + JSON.stringify(data[i].date_fin.date);
+
+      art2.appendChild(li);
+      art2.appendChild(p);
+
+    }
+
     section2.appendChild(art2);
 
 

@@ -19,24 +19,16 @@ function connecttoken (username, password, cb) {
 
 
   xhr.onload = function() {
-<<<<<<< HEAD
     if (xhr.status < 500 && xhr.status >= 400) { // analyze HTTP status of the response
       document.getElementById('loginerror').innerHTML= "Identifiants incorrects";
     } else {
       cb(JSON.parse(xhr.response))
       document.getElementById('loginerror').innerHTML= "";
-=======
-    if (xhr.status != 200) { // analyze HTTP status of the response
-      console.log('err', xhr.statusText);
-    } else {
-      cb(JSON.parse(xhr.response))
->>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
     }
   };
 }
 
 
-<<<<<<< HEAD
 function roleuser(data, cb) {
 
    let xhr = new XMLHttpRequest();
@@ -69,8 +61,6 @@ function roleuser(data, cb) {
 
 
 
-=======
->>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
 
 window.addEventListener('load', function load(event) {
 
@@ -83,7 +73,6 @@ window.addEventListener('load', function load(event) {
     localStorage.setItem('user-id', username);
 
     connecttoken(username, password, function ({ token }) {
-<<<<<<< HEAD
 
     localStorage.setItem('user-token', token);
 
@@ -99,11 +88,6 @@ window.addEventListener('load', function load(event) {
         document.getElementById('go-to-index').click();
       }});
 
-=======
-      localStorage.setItem('user-token', token);
-
-      document.getElementById('go-to-index').click();
->>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
     });
   }
 });
