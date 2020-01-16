@@ -2,6 +2,13 @@
 .gauche {
 
   float: left;
+<<<<<<< HEAD
+  padding: 1%;
+  position: relative;
+  border-radius:2px;
+  width: 40%;
+  margin: 0 auto 1%;
+=======
   padding: 2%;
   position: relative;
   border-radius:2px;
@@ -9,6 +16,7 @@
   width: 40%;
   margin: 0 auto 1%;
   margin-left: 7%;
+>>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
 
@@ -21,7 +29,11 @@
   background: #FFFFFF;
   width: 30%;
   margin: 0 auto 1%;
+<<<<<<< HEAD
+  padding: 2%;
+=======
   padding: 5%;
+>>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
   margin-right: 7%;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -35,7 +47,15 @@
 
 .user {
   color: green;
-  padding: 10px
+  padding-left: 2%;
+  padding-right: 3%;
+  width: 20%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #F1D19F;
+  border-radius: 20px;
+
 }
 
 .pause {
@@ -149,6 +169,11 @@ body {
 }
 
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
 #break-button {
   background-color: LimeGreen;
   width : 100%;
@@ -177,3 +202,41 @@ body {
 width : 250px;
 height : 30px;
 }
+<<<<<<< HEAD
+
+#btn-stat {
+
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 20%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #F1D19F;
+
+}
+
+
+#statistiques {
+
+
+  display:none;
+  clear: both;
+  border-style: dotted;
+  height: 40%;
+  background: white;
+  padding: 5%;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+
+}
+
+#userconnected {
+
+  padding: 1%;
+  width: 50%;
+
+}
+=======
+>>>>>>> dd4a2691141fa8e752e83f4371a63238ce388f58
